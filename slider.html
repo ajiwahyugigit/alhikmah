@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>slider</title>
+</head>
+<body>
+    
+
+    <!-- navbar  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/Al Hikmah Landscape 1.png" alt="" height="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Jelajah
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Produk
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Berita
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hubungi
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control search mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <div class="regist">
+            <i class="fa fa-user"></i>
+            Daftar
+          </div>
+        </div>
+       </div>
+      </nav>
+
+    <!-- akhir navbar -->
+
+
+    <!-- content -->
+
+    <div class="container my-4">
+          
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls-top text-center">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+            class="fas fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+      
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+    <!-- akhir content -->
+
+
+</body>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

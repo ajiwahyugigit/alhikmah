@@ -4,6 +4,49 @@
     font-size: large;
     font-family: 'Quicksand', sans-serif;
 }
+/* berita */
+.nav-list {
+    background-color: #E5FFE6;
+    color: #30B52D;
+}
+.detail a {
+    color: #30B52D;
+}
+.date {
+    color: #30B52D;
+}
+.header-list, .berita-list {
+    background-color: #E5FFE6;
+    color: #30B52D;
+}
+.header-list a, .berita-list a {
+    color: #30B52D;
+}
+.keuangan-syariah {
+    margin-top: 0px;
+}
+.insta {
+    background-color: #30B52D;
+}
+.insta a {
+    color: white;
+}
+.slider-instagram .card-title a, h2 {
+    color: #30B52D;
+}
+.slider-instagram {
+    background-color: #B1FFAF;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.slider-instagram p {
+    color: #C4C4C4;
+}
+.slider-card {
+    margin-top: -280px;
+}
+
+/* akhir berita */
 .display-4 {
     font-weight: 500;
 }
@@ -58,4 +101,15 @@ footer ul li {
 }
 footer a, footer p{
     color: #fff;
+}
+
+.form-control {
+    background-color: #ECEAEA;
+}
+.ktp, .selfie, .ttd {
+    height: 100px;
+    border: 2px dashed #C4C4C4;
+}
+.syarat {
+    background-color: #B1FFAF;
 }
