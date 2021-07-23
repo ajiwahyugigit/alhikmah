@@ -25,13 +25,16 @@
 .keuangan-syariah {
     margin-top: 0px;
 }
+.up-todate h2 {
+    color: #30B52D;
+}
 .insta {
     background-color: #30B52D;
 }
 .insta a {
     color: white;
 }
-.slider-instagram .card-title a, h2 {
+.slider-card .card-title a {
     color: #30B52D;
 }
 .slider-instagram {
@@ -39,12 +42,32 @@
     padding-top: 80px;
     padding-bottom: 200px;
 }
-.slider-instagram p {
+.slider-instagram, .card-text {
     color: #C4C4C4;
 }
 .slider-card {
     margin-top: -280px;
 }
+/* berita details */
+
+
+.header-detail {
+    margin-top: 40px;
+}
+
+.date-news b {
+    color: #30B52D;
+}
+
+/* akhir berita details */
+
+/* category berita */
+
+.category-list .card-title a {
+    color: #30B52D;
+}
+
+/* akhir category berita */
 
 /* akhir berita */
 .display-4 {
